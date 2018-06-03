@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Pemesan</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+<body style="background-color: #e84a4c">
+  <div class="navigation">
+    <div class="container col-md-8 offset-md-2">
+      <nav class="navbar navbar-expand-lg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav navbar-nav">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="produk.html">Product</a></li>
+            <li><a href="#"><img class="logo" src="assets/img/logo.png"></a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="promo.html">Promo</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>    
+  </div>
+
+<!-- MUlai -->   
+<div class="margin">
+<div class="row">
+    <div class="col-md-8">
+      <h3 style="color: white;">Data Pemesan</h3>
+<form ng-app="" name="myForm">
+  <div class="form-group row">
+    <label for="staticEmail" class="col-sm-2 col-form-label" style="color: white;">Email</label>
+    <div class="col-sm-5">
+      <input type="email" name="myAddress" ng-model="text" class="form-control" id="staticEmail" aria-describedby="emailHelp" placeholder="Email">
+      <span ng-show="myForm.myAddress.$error.email" style="color: white;">Masukan email anda dengan benar</span>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputNama" class="col-sm-2 col-form-label" style="color: white;">Nama Lengkap</label>
+    <div class="col-sm-5">
+      <input type="text" class="form-control" id="inputNama" placeholder="Nama Lengkap">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputAlamat" class="col-sm-2 col-form-label" style="color: white;">Address</label>
+    <div class="col-sm-5">
+      <textarea type="text" class="form-control" id="inputAlamat" placeholder="Address" rows="4"></textarea>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputSpesialRequest" class="col-sm-2 col-form-label" style="color: white;">Spesial Request</label>
+    <div class="col-sm-5">
+      <textarea type="text" class="form-control" id="inputSpesialRequest" placeholder="SpesialRequest" rows="4"></textarea>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputHP" class="col-sm-2 col-form-label" style="color: white;">No Handphone</label>
+    <div class="col-sm-5">
+      <input type="text" class="form-control" id="inputHP" placeholder="Nomor Handphone">
+    </div>
+  </div>
+
+     <div class="col-sm-7">
+     <button type="submit" class="btn btn-secondary float-right" style="background-color: white; color: black;">Kirim</button></div>
+
+</form>
+</div>
+
+
+    <div class="col-md-" style="color: white;">
+      <h3>Notes</h3>
+      <p>Ketika anda telah mengisi data, harap hubungi kami</p>
+    </div>
+  </div>
+</div> 
+
+<br>
+<!-- footer -->
+<footer>
+    <div class="footer"">
+        <div class="row">
+            <div class="col">
+                <p class="text-left">Copyright &copy 2018 Wozzy Bakery | wozzybakery@gmail.com | 081291188904</p>
+            </div>
+            <div class="col">
+                <div class="logo">
+                    <a href="htttps://facebook.com/"><img src="assets/img/facebook-blue.png" class="img-responsive" alt="Image"></a>
+                    <a href="htttps://instagram.com/"><img src="assets/img/instagram_PNG10.png" class="img-responsive" alt="Image"></a>
+                    <a href="htttps://twitter.com/"><img src="assets/img/twitter-blue.png" class="img-responsive" alt="Image"></a>
+              </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
